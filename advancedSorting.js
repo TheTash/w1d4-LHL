@@ -18,6 +18,7 @@ console.log(students.sort( (a, b) => {
   var namesA = a.name;
   var nameB = b.name;
 
+
   if (namesA < nameB){
     return -1;
   }
@@ -28,4 +29,5 @@ console.log(students.sort( (a, b) => {
   if (namesA = nameB) {
     return b.age - a.age;
   };
-}));
+})
+);

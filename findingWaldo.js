@@ -1,5 +1,4 @@
 // The second argument/parameter is expected to be a function
-/*
 
 var Where = {
    findWaldo: function (arr, found) {
@@ -20,7 +19,7 @@ var Where = {
 
 
 Where.findWaldo(["Alice", "Bob", "Waldo", "Winston"], Where.actionWhenFound);
-*/
+
 
 
 function findWaldo(arr, found) {
